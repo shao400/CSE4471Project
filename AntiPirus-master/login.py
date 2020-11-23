@@ -39,7 +39,7 @@ user_name_entry.place(x=110,y=30)
 #enter password
 user_pwd_text=tk.StringVar()
 
-user_pwd_entry=tk.Entry(my_window,textvariable=user_pwd_text,font=14,width=15)
+user_pwd_entry=tk.Entry(my_window,textvariable=user_pwd_text,font=14,width=15,show ="*")
 user_pwd_entry.place(x=110,y=80)
 
 #read data
@@ -77,6 +77,7 @@ def user_login():
     else:
         # print("username and password can't be empty")
         messagebox.showerror(title="fail",message="username and password can't be empty")
+    #pwd = len(pwd)*"*"
 
 #pop sign up window
 def pop_win():
@@ -91,11 +92,11 @@ def pop_win():
 
     tk.Label(top,text="password",width=10).grid(row=2,column=0)
     user_pwd=tk.StringVar()
-    tk.Entry(top,textvariable=user_pwd,width=15).grid(row=2,column=1)
+    tk.Entry(top,textvariable=user_pwd,width=15,show = "*").grid(row=2,column=1)
 
     tk.Label(top,text="password again",width=15).grid(row=3,column=0)
     user_confirm_pwd=tk.StringVar()
-    tk.Entry(top,textvariable=user_confirm_pwd,width=15).grid(row=3,column=1)
+    tk.Entry(top,textvariable=user_confirm_pwd,width=15,show = "*").grid(row=3,column=1)
 
     #sign up event
     def user_register():
