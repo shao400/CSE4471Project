@@ -3,6 +3,13 @@ from antipirus import anti
 import subprocess
 import io
 from contextlib import redirect_stdout
+import login
+
+# call login.py to make sure login in
+login
+if login.success == 0:
+    exit()
+
 
 #This is a UI framework for the antipirus codes
 
@@ -37,7 +44,9 @@ Output = Text(root, height = 50,
 Display = Button(root, height = 2, 
                  width = 20,  
                  text ="Scan and Detect", 
-                 command = lambda:Take_input()) 
+                 command = lambda:Take_input())
+
+
   
 l.pack() 
 inputtxt.pack() 
