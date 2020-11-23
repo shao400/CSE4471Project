@@ -1,0 +1,10 @@
+C:\Users\shao4\source\repos\AntivirusLight\AntivirusLight\bin\Debug\AntivirusLight.exe.config
+C:\Users\shao4\source\repos\AntivirusLight\AntivirusLight\bin\Debug\AntivirusLight.exe
+C:\Users\shao4\source\repos\AntivirusLight\AntivirusLight\bin\Debug\AntivirusLight.pdb
+C:\Users\shao4\source\repos\AntivirusLight\AntivirusLight\obj\Debug\AntivirusLight.csprojAssemblyReference.cache
+C:\Users\shao4\source\repos\AntivirusLight\AntivirusLight\obj\Debug\AntivirusLight.Form1.resources
+C:\Users\shao4\source\repos\AntivirusLight\AntivirusLight\obj\Debug\AntivirusLight.Properties.Resources.resources
+C:\Users\shao4\source\repos\AntivirusLight\AntivirusLight\obj\Debug\AntivirusLight.csproj.GenerateResource.cache
+C:\Users\shao4\source\repos\AntivirusLight\AntivirusLight\obj\Debug\AntivirusLight.csproj.CoreCompileInputs.cache
+C:\Users\shao4\source\repos\AntivirusLight\AntivirusLight\obj\Debug\AntivirusLight.exe
+C:\Users\shao4\source\repos\AntivirusLight\AntivirusLight\obj\Debug\AntivirusLight.pdb
