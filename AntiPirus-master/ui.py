@@ -20,12 +20,13 @@ root.title("Malicious Python File Detection")
 
 #get input and loop function call antipirus program 
 def Take_input():
-	INPUT = inputtxt.get("1.0", "end-1c")
-	f = io.StringIO()
-	with redirect_stdout(f):
-		anti(INPUT)
-	out = f.getvalue()
-	Output.insert(END, out) 
+  INPUT = inputtxt.get("1.0", "end-1c")
+  f = io.StringIO()
+  with redirect_stdout(f):
+  	anti(INPUT)
+  out = f.getvalue()
+  Output.delete('1.0', END)
+  Output.insert(END, out) 
 
 #initating text widgets
 
