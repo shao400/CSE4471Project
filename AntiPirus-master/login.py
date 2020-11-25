@@ -104,7 +104,10 @@ def pop_win():
         name=user_name.get()
         pwd=user_pwd.get()
         confirm_pwd=user_confirm_pwd.get()
-        if pwd==confirm_pwd:
+        if name =="" or pwd == "":
+            messagebox.showerror(title="fail", message="username and password can't be empty")
+
+        elif pwd==confirm_pwd:
             with open("data.txt","a") as f:
                 f.writelines(name+":"+pwd+"\n")
                 f.flush()
